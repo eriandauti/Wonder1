@@ -1,0 +1,41 @@
+.hero{
+    position: relative;
+    background-image: url("../img/wonder.jpg");
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+}
+
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    
+}
+
+.navbar .logo {
+    order: 1;
+}
+
+.navbar .main-navigation{
+    order: 2;
+    flex-grow: 1;
+}
+
+.navbar #main-menu {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar #main-menu li{
+    margin-left: 10px;
+}
