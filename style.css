@@ -1,9 +1,38 @@
-.hero{
-    position: relative;
+
+.navbar .logo .img_logo {
+    order: 1;
+   height: 50px;
+   background-color: black;
+   
+}
+
+.header__wrapper {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 50;
+    align-items: center;
+    justify-content: center;
+    background: rgb(37 35 35 / 25%);
+    height: 100px;
+    z-index: 1;
+    
+}
+
+
+.hero-wrapper{
     background-image: url("../img/wonder.jpg");
     background-size:cover;
     background-position: center;
     width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    background-position-y: bottom;
 }
 
 
@@ -13,29 +42,10 @@
     left: 0;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 10px 20px;
     box-sizing: border-box;
     
 }
 
-.navbar .logo {
-    order: 1;
-}
-
-.navbar .main-navigation{
-    order: 2;
-    flex-grow: 1;
-}
-
-.navbar #main-menu {
-    display: flex;
-    justify-content: flex-end;
-    list-style-type: none;
-    padding: 0;
-}
-
-.navbar #main-menu li{
-    margin-left: 10px;
-}
